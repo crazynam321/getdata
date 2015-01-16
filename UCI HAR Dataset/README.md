@@ -22,3 +22,5 @@ To run this program, simply put 'run_analysis.R' into the 'UCI HAR Dataset' dire
 The only output is the creation of the file 'averages.csv'
 
 Program functionality is described in detail within 'run_analysis.R' comments.
+
+Variables used are in 'codebook.txt' and explained in 'features_info.txt'.
