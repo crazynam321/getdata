@@ -53,10 +53,10 @@ write_file <- function(averages = NULL)
 # function to load two data sets and return the merged version
 get_merge <- function()
 {
-	# load 'train/X_train.txt': Training set.
-	train_set <- fread("UCI HAR Dataset/train/X_train.txt")
-	# load 'test/X_test.txt'  : Test set.
-	test_set <- fread("UCI HAR Dataset/test/X_test.txt")
+	# load 'X_train.txt': Training set.
+	train_set <- fread("./X_train.txt")
+	# load 'X_test.txt'  : Test set.
+	test_set <- fread("./X_test.txt")
 	
 	# merge both files together
 	combined <- tbl_df(rbindlist(list(train_set,test_set)))
