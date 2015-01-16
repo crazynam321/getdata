@@ -56,7 +56,7 @@ get_merge <- function()
 	# load 'X_train.txt': Training set.
 	train_set <- fread("./train/X_train.txt")
 	# load 'X_test.txt'  : Test set.
-	test_set <- fread("./train/X_test.txt")
+	test_set <- fread("./test/X_test.txt")
 	
 	# merge both files together
 	combined <- tbl_df(rbindlist(list(train_set,test_set)))
@@ -69,7 +69,7 @@ get_merge <- function()
 name_cols <- function(combined = NULL)
 {
 	# read file with all 561 column names from 'features.txt'
-	features <- read.table("features.txt")
+	features <- read.table("./features.txt")
 	
 	## Extract only the measurements on the mean and standard deviation for each measurement. 
 	# (Based off of given criteria it seemed to me meanFreq() is neither of the two so 

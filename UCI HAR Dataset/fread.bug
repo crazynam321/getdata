@@ -1,0 +1,11 @@
+sed 's/^[[:blank:]]*//;s/[[:blank:]]\{1,\}/,/g' file > outfile
+
+file = e.g - X_train.txt
+
+# run command on data files to work around fread bug:
+
+"Error in fread("./train/X_train.txt") :
+  Not positioned correctly after testing format of header row. ch=' '"
+
+# Solution found from here:
+http://stackoverflow.com/questions/22229109/r-data-table-fread-command-how-to-read-large-files-with-irregular-separators
