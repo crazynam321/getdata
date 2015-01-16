@@ -15,11 +15,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-Good luck!
 
 Also I ran into some issues using fread() which are documented in fread.bug.
 
-This program is simply put into the 'UCI HAR Dataset' directory and run by typing 'run()' after loading source.
+To run this program, simply put 'run_analysis.R' into the 'UCI HAR Dataset' directory and run by typing 'run()' after loading source.
 The only output is the creation of the file 'averages.csv'
 
 Program functionality is described in detail within 'run_analysis.R' comments.
