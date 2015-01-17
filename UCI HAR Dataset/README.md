@@ -19,6 +19,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Also I ran into some issues using fread() which are documented in fread.bug.
 
 To run this program, simply put 'run_analysis.R' into the 'UCI HAR Dataset' directory and run by typing 'run()' after loading source.
+This program is dependant on the files 'features.txt' and 'activity_labels.txt' being in the same directory.
+Also dependant on './train/X_train.txt' and './test/X_test.txt' relative to current directory.
+
 The only output is the creation of the file 'averages.csv'
 
 Program functionality is described in detail within 'run_analysis.R' comments.
