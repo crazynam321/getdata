@@ -99,3 +99,16 @@ std(): Standard deviation
 530 fBodyGyroMag-std()
 542 fBodyGyroJerkMag-mean()
 543 fBodyGyroJerkMag-std()
+
+The variable 'Activity' describes the six variations with which subjects were tested.
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+'Subject' simply denotes the test subjects (1:30 in this case).
+
+'Averages' is the mean per row for each 'Activity' performed by each 'Subject'.
